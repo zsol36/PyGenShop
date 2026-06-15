@@ -2,6 +2,7 @@ import json
 import os
 from typing import Dict, Any, List
 
+
 JSON_FILE_PATH = os.path.join(os.path.dirname(__file__), "data.json")
 
 def load_json() -> Dict[str, Any]:
